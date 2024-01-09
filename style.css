@@ -19,7 +19,8 @@ body {
   font-weight: 650;
   font-style: italic;
   color: black;
-  /*margin-left: auto auto;*/
+  width: 700px;
+  margin: auto auto;
 }
 
 .egg {
@@ -28,7 +29,7 @@ body {
   border-radius: 15%;
 }
 
-.filler-container {
+.filler-container { 
   display: flex;
   width: 260px;
 }
@@ -57,7 +58,7 @@ body {
   margin-left: 10px;
 }
 
-.shadowbox {
+.shadowbox { 
   width: 15em;
   border: 1px solid #333;
   box-shadow: 8px 8px 5px #444;
@@ -109,4 +110,5 @@ body {
   flex-flow: row wrap;
   flex-basis: auto;
   text-align: center;
+  
 }

@@ -25,7 +25,7 @@ function checkBand(selectedValue) {
       
       By early 1964, the Beatles were international stars and had achieved unprecedented levels of critical and commercial success. They became a leading force in Britain's cultural resurgence, ushering in the British Invasion of the United States pop market. They soon made their film debut with A Hard Day's Night (1964). A growing desire to refine their studio efforts, coupled with the challenging nature of their concert tours, led to the band's retirement from live performances in 1966. During this time, they produced albums of greater sophistication, including Rubber Soul (1965), Revolver (1966) and Sgt. Pepper's Lonely Hearts Club Band (1967). They enjoyed further commercial success with The Beatles (also known as "the White Album", 1968) and Abbey Road (1969). The success of these records heralded the album era, as albums became the dominant form of record use over singles. These records also increased public interest in psychedelic drugs and Eastern spirituality and furthered advancements in electronic music, album art and music videos. In 1968, they founded Apple Corps, a multi-armed multimedia corporation that continues to oversee projects related to the band's legacy. After the group's break-up in 1970, all principal former members enjoyed success as solo artists, and some partial reunions have occurred. Lennon was murdered in 1980, and Harrison died of lung cancer in 2001. McCartney and Starr remain musically active.
       
-      The Beatles are the best-selling music act of all time, with estimated sales of 600 million units worldwide. They are the most successful act in the history of the US Billboard charts,[6] holding the record for most number-one albums on the UK Albums Chart (15), most number-one hits on the US Billboard Hot 100 chart (20), and most singles sold in the UK (21.9 million). The band received many accolades, including seven Grammy Awards, four Brit Awards, an Academy Award (for Best Original Song Score for the 1970 documentary film Let It Be) and fifteen Ivor Novello Awards. They were inducted into the Rock and Roll Hall of Fame in their first year of eligibility, 1988, and each principal member was individually inducted between 1994 and 2015. In 2004 and 2011, the group topped Rolling Stone's lists of the greatest artists in history. Time magazine named them among the 20th century's 100 most important people.`;
+      The Beatles are the best-selling music act of all time, with estimated sales of 600 million units worldwide. They are the most successful act in the history of the US Billboard charts, holding the record for most number-one albums on the UK Albums Chart (15), most number-one hits on the US Billboard Hot 100 chart (20), and most singles sold in the UK (21.9 million). The band received many accolades, including seven Grammy Awards, four Brit Awards, an Academy Award (for Best Original Song Score for the 1970 documentary film Let It Be) and fifteen Ivor Novello Awards. They were inducted into the Rock and Roll Hall of Fame in their first year of eligibility, 1988, and each principal member was individually inducted between 1994 and 2015. In 2004 and 2011, the group topped Rolling Stone's lists of the greatest artists in history. Time magazine named them among the 20th century's 100 most important people.`;
       bandFunction();
       break;
 
@@ -70,7 +70,7 @@ function checkBand(selectedValue) {
       According to Billboard, Duran Duran have sold over 100 million records. They achieved 30 top 40 singles in the UK Singles Chart (14 of them top 10) and 21 top 40 singles in the US Billboard Hot 100. The band have won numerous awards throughout their career: two Brit Awards including the 2004 award for Outstanding Contribution to Music, two Grammy Awards, an MTV Video Music Award for Lifetime Achievement and a Video Visionary Award from the MTV Europe Music Awards. They were also awarded a star on the Hollywood Walk of Fame. The band were inducted into the Rock & Roll Hall of Fame in 2022.`;
       bandFunction();
       break;
-      
+
     case "Hollies":
       bandImage = "Hollies.jpg";
       bandName = "Hollies";
@@ -136,10 +136,6 @@ function checkBand(selectedValue) {
 
     default:
       console.log("Choose a band");
-      bandImage = "";
-      bandName = "Choose a band";
-      bandInfo = ``;
-      bandFunction();
       break;
   }
 }

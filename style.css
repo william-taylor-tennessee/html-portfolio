@@ -9,109 +9,16 @@ html {
 }
 
 body {
-  background-image: linear-gradient(to right, #00b9ff 65%, #003aff);
+  /*background-image: linear-gradient(
+    to right,
+    #00b9ff 5%,
+    #003aff 20%,
+    #00b9ff 60%,
+    #003aff
+  );*/
+  background-image: linear-gradient(to right, #00b9ff 35%, #003aff);
   min-height: 100vh;
   padding: 20px;
-}
-
-.band-info {
-  font-family: "Times New Roman", Times, serif;
-  display: flex;
-  justify-content: flex-start;
-  /*font-weight: bold;*/
-  /*font-weight: bolder;*/
-  font-weight: 900;
-  /*font-weight: 700px;*/
-  font-style: italic;
-  color: black;
-  width: 700px;
-  margin-bottom: 100px;
-  /*  height: 525px; */
-  font-size: 1.2rem;
-  padding: 0.5rem;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  flex-flow: row wrap;
-  text-align: left;
-}
-
-.band-image {
-  width: 300px;
-  border: solid black 4px;
-  border-left-color: darkblue;
-  border-top-color: darkblue;
-  /*border: solid #003aff 3px;*/
-  border-radius: 10%;
-}
-
-.filler-container {
-  display: flex;
-  width: 260px;
-}
-
-.guitar-img {
-  margin-bottom: 25px;
-  margin-left: 250px;
-  width: 275px;
-  /*border: solid black 3px;
-  border-radius: 50%;*/
-}
-
-.band-name {
-  font-family: "Times New Roman", Times, serif;
-  justify-content: center;
-  font-size: 75px;
-  font-style: italic;
-  color: black;
-  margin: auto auto;
-  text-shadow: -4px -5px 6px white, 4px 5px 6px rgb(255, 255, 255);
-  /*text-shadow: -4px -5px 6px white, 4px 5px 6px rgb(255, 255, 255);*/
-}
-
-.rosie-container {
-  display: flex;
-  width: 250px;
-  height: 250px;
-  border: solid black 1px;
-  border-radius: 180px;
-  margin: 10px 0px 0px 10px;
-}
-
-.select_class:hover {
-  background-color: cyan;
-}
-
-.select_class {
-  height: 24px;
-  width: 240px;
-  margin-left: 10px;
-  color: black;
-  font-weight: bolder;
-  background-color: #bbb;
-}
-
-.shadowbox {
-  width: 15em;
-  border: 1px solid #333;
-  box-shadow: 8px 8px 5px #444;
-  padding: 8px 12px;
-  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
-  margin: 20px 0px 0px 10px;
-}
-
-.title-container {
-  animation: transitionIn 2.5s;
-  display: flex;
-  /*transform: rotate(45deg);*/
-  margin: auto;
-  width: 1000px;
-  font-family: "Times New Roman", Times, serif;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-  font-weight: 650;
-  font-style: italic;
-  color: black;
 }
 
 @keyframes transitionIn {
@@ -124,29 +31,103 @@ body {
   }
 }
 
-.title1 {
-  color: #003aff;
+.top-container {
+  display: flex;
+  margin-bottom: 10px 0px 10px 10px;
+}
+
+.rosie-container {
+  display: flex;
+  height: 250px;
+  width: 250px;
+  border-radius: 180px;
+}
+
+.title-container {
+  display: flex;
+  animation: transitionIn 2.5s;
+  margin: auto;
+  width: 1000px;
   font-family: Lobster;
-  font-size: 125px;
-  font-style: italic;
+  justify-content: center;
+  align-items: center;
   font-weight: 400;
+  font-style: italic;
   text-shadow: -4px -5px 6px black, 4px 5px 6px rgb(255, 255, 255);
+}
+
+.title1 {
+  font-size: 125px;
+  color: #003aff;
 }
 
 .title2 {
+  font-size: 75px;
   color: darkblue;
-  font-family: Lobster;
+}
+
+.filler-container {
+  display: flex;
+  width: 260px;
+  /*justify-content: center;
+  align-items: center;*/
+}
+
+.shadowbox {
+  width: 15em;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+  margin: 20px 0px 0px 10px;
+}
+
+.select_class {
+  height: 24px;
+  width: 240px;
+  margin-left: 10px;
+  color: black;
+  font-weight: bolder;
+  background-color: #bbb;
+}
+
+.select_class:hover {
+  background-color: #00b9ff;
+}
+
+.band-image {
+  width: 300px;
+  border: solid black 4px;
+  border-left-color: darkblue;
+  border-top-color: darkblue;
+  border-radius: 10%;
+}
+
+.band-name {
+  font-family: "Times New Roman", Times, serif;
+  justify-content: center;
   font-size: 75px;
   font-style: italic;
-  font-weight: 400;
+  color: black;
+  margin: auto auto;
   text-shadow: -4px -5px 6px black, 4px 5px 6px rgb(255, 255, 255);
 }
 
-.top-container {
+.band-info {
+  font-family: "Times New Roman", Times, serif;
   display: flex;
+  justify-content: flex-start;
+  font-weight: 900;
+  font-style: italic;
+  color: black;
+  width: 1000px;
+  margin-bottom: 100px;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
   flex-flow: row wrap;
-  margin-bottom: 10px 0px 10px 10px;
-  flex-basis: auto;
+  text-align: left;
 }
 
 .wrapper {
@@ -157,15 +138,17 @@ body {
   text-align: center;
 }
 
-.h1-select {
-  font-size: 15px;
-  font-style: italic;
-  font-weight: bold;
-  text-align: center;
-  color: black;
-  margin-top: -50px;
+/*
+.guitar-img {
+  margin-bottom: 25px;
+  margin-left: 250px;
+  width: 275px;
+  border: solid black 3px;
+  border-radius: 50%;
 }
+*/
 
+/*
 .container {
   margin: auto;
   width: 800px;
@@ -181,4 +164,86 @@ body {
   align-items: flex-start;
   flex-wrap: wrap;
   flex-flow: row;
+}
+*/
+
+.square-container {
+  display: flex;
+  gap: 35px;
+  flex-flow: row wrap;
+  height: 1200px;
+  border: red solid 3px;
+  /*flex-wrap: wrap, nowrap, wrap-reverse;*/
+  /*flex-direction: column; row is "default"*/
+
+  margin-bottom: 10px 0px 10px 10px;
+  flex-basis: auto;
+  flex: auto;
+  justify-content: center;
+  /*Justify-content is for "main axis";
+  flex-start, flex-end, center, space-between, space-around, space-evenly*/
+
+  align-items: flex-start;
+  /*align-items is for "cross axis";
+  height: 70vh e.g., 
+  flex-start, flex-end, center, baseline,
+  stretch (wrap s/b "nowrap")*/
+
+  margin-bottom: 50px;
+}
+
+.square-1 {
+  display: flex;
+  order: 1;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+.square-2 {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+
+.square-3 {
+  display: flex;
+  align-self: center;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.square-4 {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+
+.square-5 {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+.container-grid {
+  width: 800px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.white {
+  height: 100px;
+  width: 100px;
+  background-color: #f0d9b5;
+}
+
+.black {
+  height: 100px;
+  width: 100px;
+  background-color: #b58863;
 }

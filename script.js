@@ -83,7 +83,7 @@ function checkBand(selectedValue) {
       break;
 
     case "Monkees":
-      bandImage = "Monkees-1966.JPG";
+      bandImage = "Duran Duran.jpg";
       bandName = "Monkees";
       bandInfo = `The Monkees were an American pop rock band formed in Los Angeles in the mid-1960s. The band consisted of Micky Dolenz, Davy Jones, Michael Nesmith, and Peter Tork. Spurred by the success of the television show of the same name, the Monkees were one of the most successful bands of the late 1960s. With international hits, four chart-topping albums and three chart-topping songs ("Last Train to Clarksville", "I'm a Believer", and "Daydream Believer"), they sold more than 75 million records worldwide.
 

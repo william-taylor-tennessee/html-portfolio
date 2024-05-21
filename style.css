@@ -9,13 +9,6 @@ html {
 }
 
 body {
-  /*background-image: linear-gradient(
-    to right,
-    #00b9ff 5%,
-    #003aff 20%,
-    #00b9ff 60%,
-    #003aff
-  );*/
   background-image: linear-gradient(to right, #00b9ff 35%, #003aff);
   min-height: 100vh;
   padding: 20px;
@@ -103,18 +96,25 @@ body {
   border-radius: 10%;
 }
 
+.font_bolder {
+  font-weight: bolder;
+}
+
 .band-name {
-  font-family: "Times New Roman", Times, serif;
+  font-family: Lobster;
+  /*font-family: "Times New Roman", Times, serif;*/
   justify-content: center;
-  font-size: 75px;
+  font-size: 50px;
   font-style: italic;
-  color: black;
+  color: #0f34b0;
+  /* color: darkblue; */
   margin: auto auto;
   text-shadow: -4px -5px 6px black, 4px 5px 6px rgb(255, 255, 255);
+  font-family: Lobster;
 }
 
 .band-info {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   display: flex;
   justify-content: flex-start;
   font-weight: 900;
@@ -138,112 +138,29 @@ body {
   text-align: center;
 }
 
-/*
-.guitar-img {
-  margin-bottom: 25px;
-  margin-left: 250px;
-  width: 275px;
-  border: solid black 3px;
-  border-radius: 50%;
-}
-*/
-
-/*
-.container {
-  margin: auto;
-  width: 800px;
-  height: 400px;
-  color: white;
-  font-size: 1.5rem;
-  font-style: italic;
-  padding: 0.5rem;
-  background-color: #000;
-  border: 2px solid red;
+#SM-container {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  flex-flow: row;
-}
-*/
-
-.square-container {
-  display: flex;
-  gap: 35px;
-  flex-flow: row wrap;
-  height: 1200px;
-  border: red solid 3px;
-  /*flex-wrap: wrap, nowrap, wrap-reverse;*/
-  /*flex-direction: column; row is "default"*/
-
-  margin-bottom: 10px 0px 10px 10px;
-  flex-basis: auto;
-  flex: auto;
   justify-content: center;
-  /*Justify-content is for "main axis";
-  flex-start, flex-end, center, space-between, space-around, space-evenly*/
-
-  align-items: flex-start;
-  /*align-items is for "cross axis";
-  height: 70vh e.g., 
-  flex-start, flex-end, center, baseline,
-  stretch (wrap s/b "nowrap")*/
-
-  margin-bottom: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  margin: auto;
 }
 
-.square-1 {
+#SM-img {
+  align-items: center;
   display: flex;
-  order: 1;
-  width: 200px;
-  height: 200px;
-  background-color: blue;
+  justify-content: center;
+  margin: auto;
 }
 
-.square-2 {
+#myImg {
   display: flex;
-  width: 200px;
-  height: 200px;
-  background-color: black;
-}
-
-.square-3 {
-  display: flex;
-  align-self: center;
-  width: 200px;
-  height: 200px;
-  background-color: red;
-}
-
-.square-4 {
-  display: flex;
-  width: 200px;
-  height: 200px;
-  background-color: yellow;
-}
-
-.square-5 {
-  display: flex;
-  width: 200px;
-  height: 200px;
-  background-color: green;
-}
-
-.container-grid {
-  width: 800px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
-.white {
-  height: 100px;
-  width: 100px;
-  background-color: #f0d9b5;
-}
-
-.black {
-  height: 100px;
-  width: 100px;
-  background-color: #b58863;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 500px;
+  border: 4px solid darkblue;
+  border-bottom: 3px solid darkblue;
+  border-radius: 25px;
 }

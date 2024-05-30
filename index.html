@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
+  <!-- upload on 5-30-24 -->
+
   <head>
     <meta charset="UTF-8" />
     <meta name="author" content="Bill Taylor" />
@@ -24,8 +27,8 @@
       <div class="title-container">
         <img src="guitar.png" width="150px" alt="Les Paul guitar" />
         <h1>
-          <span class="title1">Rock Bands </span
-          ><span class="title2">& info</span>
+          <span id="rockBandTitle">Rock Bands </span
+          ><span id="info">& info</span>
         </h1>
       </div>
       <div class="filler-container"></div>
@@ -45,7 +48,9 @@
     >
       <option value="">Choose a Band</option>
       <option value="">(Refresh at top to clear)</option>
-      <!-- <option value="RandomPick">Random Pick</option> -->
+      <option class="font_bolder" id="red-color" value="RandomPick">
+        Random Pick
+      </option>
       <option value=""></option>
       <option class="font_bolder" value="Beatles">Beatles</option>
       <option class="font_bolder" value="Billy Idol">Billy Idol</option>
@@ -58,21 +63,28 @@
         Raiding the Rock Vault
       </option>
       <option class="font_bolder" value="Rolling Stones">Rolling Stones</option>
+      <option class="font_bolder" value="Small Faces">Small Faces</option>
       <option class="font_bolder" value="Twisted Sister">Twisted Sister</option>
       <option class="font_bolder" value="Van Halen">Van Halen</option>
     </select>
     <br /><br />
-    <!-- <button id="myButton">Hide</button><br /> -->
-    <div id="SM-container">
-      <div id="SM-img">
+    <h3 id="smH1Id">Steve Marriott</h3>
+    <div class="smTopContainerClass">
+      <div class="smImageContainerClass">
         <img
-          id="myImg"
+          id="smImageId"
           src="SteveMarriott.png"
           width="400px"
           alt="Steve-Marriott-Image"
         />
+        <div></div>
       </div>
     </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
   </body>
 </html>

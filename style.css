@@ -1,3 +1,5 @@
+/* upload on 5-30-24 */
+
 html {
   scroll-behavior: smooth;
 }
@@ -49,12 +51,13 @@ body {
   text-shadow: -4px -5px 6px black, 4px 5px 6px rgb(255, 255, 255);
 }
 
-.title1 {
+#rockBandTitle {
   font-size: 125px;
-  color: #003aff;
+  /*color: #003aff;*/
+  color: rgb(209, 5, 5);
 }
 
-.title2 {
+#info {
   font-size: 75px;
   color: darkblue;
 }
@@ -88,7 +91,7 @@ body {
   background-color: #00b9ff;
 }
 
-.band-image {
+.bandImageClass {
   width: 300px;
   border: solid black 4px;
   border-left-color: darkblue;
@@ -96,24 +99,28 @@ body {
   border-radius: 10%;
 }
 
+#red-color {
+  color: red;
+}
+
 .font_bolder {
   font-weight: bolder;
 }
 
-.band-name {
+.bandNameClass {
   font-family: Lobster;
   /*font-family: "Times New Roman", Times, serif;*/
   justify-content: center;
   font-size: 50px;
   font-style: italic;
-  color: #0f34b0;
-  /* color: darkblue; */
+  /*color: #0f34b0;*/
+  color: darkblue;
   margin: auto auto;
   text-shadow: -4px -5px 6px black, 4px 5px 6px rgb(255, 255, 255);
   font-family: Lobster;
 }
 
-.band-info {
+.bandInfoClass {
   font-family: 'Times New Roman', Times, serif;
   display: flex;
   justify-content: flex-start;
@@ -130,7 +137,7 @@ body {
   text-align: left;
 }
 
-.wrapper {
+.divClass {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -138,7 +145,7 @@ body {
   text-align: center;
 }
 
-#SM-container {
+.smTopContainerClass {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -147,14 +154,14 @@ body {
   margin: auto;
 }
 
-#SM-img {
+.smImageContainerClass {
   align-items: center;
   display: flex;
   justify-content: center;
   margin: auto;
 }
 
-#myImg {
+#smImageId {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -163,4 +170,14 @@ body {
   border: 4px solid darkblue;
   border-bottom: 3px solid darkblue;
   border-radius: 25px;
+}
+
+#smH1Id {
+  display: none;
+  font-size: 1.4em;
+  color: black;
+  font-style: italic;
+  margin-top: 350px;
+  margin-left: 950px;
+  position: fixed;
 }

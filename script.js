@@ -1,6 +1,6 @@
 'use strict';
 
-/* upload on 5-30-24 */
+/* upload on 6-3-24 */
 
 // array below with all bands and info
 let randomBand = [
@@ -71,6 +71,14 @@ let randomBand = [
     The Hollies are one of the few UK groups of the early 1960s, along with the Rolling Stones, who have never disbanded and continue to record and perform. In recognition of their achievements, the Hollies were inducted into the Rock and Roll Hall of Fame in 2010.`,
   },
   {
+    image: `Lastinline.png`,
+    band: `Last in Line`,
+    info: `Last in Line is a British rock band formed in 2012 by former members of Dio's original lineup. Their name comes from the 1984 Dio album, The Last in Line. Following the death of frontman Ronnie James Dio in 2010, drummer Vinny Appice, bassist Jimmy Bain, guitarist Vivian Campbell and keyboardist Claude Schnell reunited and added vocalist Andrew Freeman to perform the Dio songs they originally recorded. They released three studio albums of original material without Schnell (two without Bain) between February 2016 and March 2023.
+
+Dio origins ...
+Former Black Sabbath members vocalist Ronnie James Dio and drummer Vinny Appice formed Dio in October 1982 in the United States with bassist Jimmy Bain and guitarist Vivian Campbell. The band released their debut album, Holy Diver in May 1983. Since Ronnie James Dio and Jimmy Bain had played keyboards on the record, they recruited keyboardist Claude Schnell for live shows in 1983 and the following Holy Diver tour. Claude Schnell later became a full member of Dio, and the band's first recorded effort as a quintet was 1984's The Last in Line. The band proceeded to release Sacred Heart in 1985 and The Dio E.P. in 1986 before Campbell was fired. The remaining members were joined by guitarist Craig Goldy to release Dream Evil in 1987 before the departure of Bain, Appice and Schnell. They did not play in Dio together again. Appice returned between 1993 and 1998 and Bain between 1999 and 2004.`,
+  },
+  {
     image: `Monkees-1966.jpg`,
     band: `Monkees`,
     info: `The Monkees were an American pop rock band formed in Los Angeles in the mid-1960s. The band consisted of Micky Dolenz, Davy Jones, Michael Nesmith, and Peter Tork. Spurred by the success of the television show of the same name, the Monkees were one of the most successful bands of the late 1960s. With international hits, four chart-topping albums and three chart-topping songs ("Last Train to Clarksville", "I'm a Believer", and "Daydream Believer"), they sold more than 75 million records worldwide.
@@ -130,11 +138,34 @@ let randomBand = [
     
     As of March 2019, Van Halen is 20th on the RIAA's list of best-selling artists in the United States; the band has sold 56 million albums in the U.S. and more than 80 million worldwide, making them one of the best-selling groups of all time. As of 2007, Van Halen is one of only five rock bands with two studio albums to sell more than 10 million copies in the United States and is tied for the most multi-platinum albums by an American band. Additionally, Van Halen has charted 13 number-one hits on Billboard's Mainstream Rock chart. VH1 ranked the band seventh on its list of the "100 Greatest Hard Rock Artists". Eddie was diagnosed with cancer in 2001, and died of the disease on October 6, 2020. A month after his father's death, Wolfgang confirmed that Van Halen had disbanded.`,
   },
-  /*{
-    image: ``,
-    band: `Band 13`,
-    info: `Band 13 info ...`,
+  {
+    image: `PaulShortino.jpg`,
+    band: `Paul Shortino`,
+    info: `Paul Shortino (born May 14, 1953) is an American rock singer and musician who has sung for Rough Cutt/The Cutt, Quiet Riot, Bad Boyz, and Shortino. He briefly recorded with J.K. Northrup as the duo, Shortino/Northrup. He has also recorded as a solo artist, writing and performing the song "E.G.G.M.A.N." as the theme for Dr. Eggman in Sonic Adventure 2 for Sega, and in Shadow the Hedgehog as "E.G.G.M.A.N. Doc Robeatnix Mix". Shortino recorded lead vocals for the Heavy Metal benefit project Hear 'n Aid in 1985. The single from this project, "Stars", also features lead vocals by heavy metal singers Ronnie James Dio, Rob Halford, Geoff Tate, Don Dokken, Kevin DuBrow, Eric Bloom and Dave Meniketti.
+
+    Shortino is currently a member of the band King Kobra, and also performs in the cast of Raiding the Rock Vault at the Hard Rock Hotel and Casino in Las Vegas.
+
+    Shortino played the character "Duke Fame" in the film, This Is Spinal Tap, and reprised this role in the first webisode by Las Vegas-based group Sin City Sinners. He resides in Las Vegas with his wife Carmen, and is a regular guest of the Sinners.`,
   },
+  {
+    image: `RobertSmith.jpg`,
+    band: `Robert Smith`,
+    info: `Robert James Smith (born 21 April 1959) is an English musician, singer, songwriter, record producer, and the co-founder, lead vocalist, guitarist, primary songwriter, and only continuous member of the Cure, an alternative rock band formed in 1978. His unique guitar-playing style, distinctive singing voice, and fashion sense, often sporting a pale complexion, smeared red lipstick, black eye-liner, unkempt wiry black hair, and all-black clothes, which were highly influential on the goth subculture that rose to prominence in the 1980s.
+
+    Smith's other work includes playing the lead guitar for Siouxsie and the Banshees from 1982 to 1984 and being a member of the short-lived band the Glove in 1983. He was inducted into the Rock and Roll Hall of Fame as a member of the Cure in 2019, and Rolling Stone magazine ranked him as the 157th greatest singer of all time in 2023.`,
+  },
+  {
+    image: `SteveMarriott2.jpg`,
+    band: `Steve Marriott`,
+    info: `Stephen Peter Marriott (30 January 1947 – 20 April 1991), known professionally as Steve Marriott, was an English musician, guitarist, singer and songwriter. He co-founded and played in the rock bands Small Faces and Humble Pie, in a career spanning over 20 years. Marriott was inducted posthumously into the Rock and Roll Hall of Fame in 2012 as a member of Small Faces.
+  
+      In Britain, Marriott became a popular, often-photographed mod style icon. Marriott was influenced by musicians such as: Miles Davis, Buddy Holly, Booker T & the MG's, Ray Charles, Otis Redding, Muddy Waters and Bobby Bland. In his later life, Marriott distanced himself from the mainstream music industry and turned away from major record labels, remaining in relative obscurity. He returned to his musical roots, playing in local pubs and clubs around London and Essex. 
+      
+      Marriott died on 20 April 1991 when a fire, which was thought to have been caused by a cigarette, swept through his 16th-century home in Arkesden, Essex. He was 44 and posthumously received an Ivor Novello Award in 1996 for his "Outstanding Contribution to British Music", and was listed in Mojo as one of the top 100 greatest singers of all time.
+      
+      Former Black Sabbath frontman Ozzy Osbourne named Marriott the fourth-greatest singer ever and Clem Burke of Blondie ranked him the sixteenth. Paul Stanley of Kiss called Marriott "unbelievable" and a hero of his, while Steve Perry of Journey named him one of his favorite singers.`,
+  },
+  /*  
   {
     image: ``,
     band: `Band 14`,
@@ -172,104 +203,133 @@ let randomBand = [
   },*/
 ];
 
-let randomNumber;
+
+/*
+let randomMusician = [
+  {
+    image: `PaulShortino.jpg`,
+    name: `Paul Shortino`,
+    info: `Paul Shortino (born May 14, 1953) is an American rock singer and musician who has sung for Rough Cutt/The Cutt, Quiet Riot, Bad Boyz, and Shortino. He briefly recorded with J.K. Northrup as the duo, Shortino/Northrup. He has also recorded as a solo artist, writing and performing the song "E.G.G.M.A.N." as the theme for Dr. Eggman in Sonic Adventure 2 for Sega, and in Shadow the Hedgehog as "E.G.G.M.A.N. Doc Robeatnix Mix". Shortino recorded lead vocals for the Heavy Metal benefit project Hear 'n Aid in 1985. The single from this project, "Stars", also features lead vocals by heavy metal singers Ronnie James Dio, Rob Halford, Geoff Tate, Don Dokken, Kevin DuBrow, Eric Bloom and Dave Meniketti.
+
+    Shortino is currently a member of the band King Kobra, and also performs in the cast of Raiding the Rock Vault at the Hard Rock Hotel and Casino in Las Vegas.
+
+    Shortino played the character "Duke Fame" in the film, This Is Spinal Tap, and reprised this role in the first webisode by Las Vegas-based group Sin City Sinners. He resides in Las Vegas with his wife Carmen, and is a regular guest of the Sinners.`,
+  },
+  {
+    image: `RobertSmith.jpg`,
+    name: `Robert Smith`,
+    info: `Robert James Smith (born 21 April 1959) is an English musician, singer, songwriter, record producer, and the co-founder, lead vocalist, guitarist, primary songwriter, and only continuous member of the Cure, an alternative rock band formed in 1978. His unique guitar-playing style, distinctive singing voice, and fashion sense, often sporting a pale complexion, smeared red lipstick, black eye-liner, unkempt wiry black hair, and all-black clothes, which were highly influential on the goth subculture that rose to prominence in the 1980s.
+
+    Smith's other work includes playing the lead guitar for Siouxsie and the Banshees from 1982 to 1984 and being a member of the short-lived band the Glove in 1983. He was inducted into the Rock and Roll Hall of Fame as a member of the Cure in 2019, and Rolling Stone magazine ranked him as the 157th greatest singer of all time in 2023.`,
+  },
+  {
+    image: `SteveMarriott2.jpg`,
+    name: `Steve Marriott`,
+    info: `Stephen Peter Marriott (30 January 1947 – 20 April 1991), known professionally as Steve Marriott, was an English musician, guitarist, singer and songwriter. He co-founded and played in the rock bands Small Faces and Humble Pie, in a career spanning over 20 years. Marriott was inducted posthumously into the Rock and Roll Hall of Fame in 2012 as a member of Small Faces.
+  
+      In Britain, Marriott became a popular, often-photographed mod style icon. Marriott was influenced by musicians such as: Miles Davis, Buddy Holly, Booker T & the MG's, Ray Charles, Otis Redding, Muddy Waters and Bobby Bland. In his later life, Marriott distanced himself from the mainstream music industry and turned away from major record labels, remaining in relative obscurity. He returned to his musical roots, playing in local pubs and clubs around London and Essex. 
+      
+      Marriott died on 20 April 1991 when a fire, which was thought to have been caused by a cigarette, swept through his 16th-century home in Arkesden, Essex. He was 44 and posthumously received an Ivor Novello Award in 1996 for his "Outstanding Contribution to British Music", and was listed in Mojo as one of the top 100 greatest singers of all time.
+      
+      Former Black Sabbath frontman Ozzy Osbourne named Marriott the fourth-greatest singer ever and Clem Burke of Blondie ranked him the sixteenth. Paul Stanley of Kiss called Marriott "unbelievable" and a hero of his, while Steve Perry of Journey named him one of his favorite singers.`,
+  },
+];
+*/
+
+let bandRandomNumber;
 let bandImage = '';
 let bandName = '';
 let bandInfo = '';
+let musicianRandomNumber;
+let musicianImage = '';
+let musicianName = '';
+let musicianInfo = '';
 let i;
+let aaa;
 
 function checkBand(selectedValue) {
-  console.log(`checkband function startyed`);
   for (i = 0; i < randomBand.length; i++)
     if (randomBand[i].band === selectedValue) {
-      randomNumber = i;
-      console.log(
-        `This is in "if" stmt area, selectedValue is ${selectedValue}`
-      );
-      console.log(`randomBand length is ${randomBand.length}`);
-      console.log(`randomBand is ${randomBand[randomNumber].band}`);
-      console.log(``);
+      bandRandomNumber = i;
     }
-  console.log(`${selectedValue}`);
   switch (selectedValue) {
     case 'RandomPick':
-      console.log(`This is in "randomPick" case area`);
-      randomNumber = Math.random() * 12;
-      console.log(`The random number before flooring is ${randomNumber}`);
-      randomNumber = Math.floor(randomNumber);
-      console.log(`The random number after flooring is ${randomNumber}`);
-      console.log(`Random band is ${randomBand[randomNumber].band}`);
+      bandRandomNumber = Math.random() * randomBand.length;
+      bandRandomNumber = Math.floor(bandRandomNumber);
 
-      bandImage = randomBand[randomNumber].image;
-      bandName = randomBand[randomNumber].band;
-      bandInfo = randomBand[randomNumber].info;
-
-      console.log(`This is band # ${randomNumber + 1}`);
-      console.log(``);
-
+      bandImage = randomBand[bandRandomNumber].image;
+      bandName = randomBand[bandRandomNumber].band;
+      bandInfo = randomBand[bandRandomNumber].info;
       bandFunction();
       break;
 
     case 'Beatles':
-      bandImage = randomBand[randomNumber].image;
-      bandName = randomBand[randomNumber].band;
-      bandInfo = randomBand[randomNumber].info;
+      bandImage = randomBand[bandRandomNumber].image;
+      bandName = randomBand[bandRandomNumber].band;
+      bandInfo = randomBand[bandRandomNumber].info;
       bandFunction();
       break;
 
     case 'Billy Idol':
-      bandImage = randomBand[randomNumber].image;
-      bandName = randomBand[randomNumber].band;
-      bandInfo = randomBand[randomNumber].info;
+      bandImage = randomBand[bandRandomNumber].image;
+      bandName = randomBand[bandRandomNumber].band;
+      bandInfo = randomBand[bandRandomNumber].info;
       bandFunction();
       break;
 
     case 'David Bowie':
-      bandImage = randomBand[randomNumber].image;
-      bandName = randomBand[randomNumber].band;
-      bandInfo = randomBand[randomNumber].info;
+      bandImage = randomBand[bandRandomNumber].image;
+      bandName = randomBand[bandRandomNumber].band;
+      bandInfo = randomBand[bandRandomNumber].info;
       bandFunction();
       break;
 
     case 'Def Leppard':
-      bandImage = randomBand[randomNumber].image;
-      bandName = randomBand[randomNumber].band;
-      bandInfo = randomBand[randomNumber].info;
+      bandImage = randomBand[bandRandomNumber].image;
+      bandName = randomBand[bandRandomNumber].band;
+      bandInfo = randomBand[bandRandomNumber].info;
       bandFunction();
       break;
 
     case 'Duran Duran':
-      bandImage = randomBand[randomNumber].image;
-      bandName = randomBand[randomNumber].band;
-      bandInfo = randomBand[randomNumber].info;
+      bandImage = randomBand[bandRandomNumber].image;
+      bandName = randomBand[bandRandomNumber].band;
+      bandInfo = randomBand[bandRandomNumber].info;
       bandFunction();
       break;
 
     case 'Hollies':
-      bandImage = randomBand[randomNumber].image;
-      bandName = randomBand[randomNumber].band;
-      bandInfo = randomBand[randomNumber].info;
+      bandImage = randomBand[bandRandomNumber].image;
+      bandName = randomBand[bandRandomNumber].band;
+      bandInfo = randomBand[bandRandomNumber].info;
+      bandFunction();
+      break;
+
+    case 'Last in Line':
+      bandImage = randomBand[bandRandomNumber].image;
+      bandName = randomBand[bandRandomNumber].band;
+      bandInfo = randomBand[bandRandomNumber].info;
       bandFunction();
       break;
 
     case 'Monkees':
-      bandImage = randomBand[randomNumber].image;
-      bandName = randomBand[randomNumber].band;
-      bandInfo = randomBand[randomNumber].info;
+      bandImage = randomBand[bandRandomNumber].image;
+      bandName = randomBand[bandRandomNumber].band;
+      bandInfo = randomBand[bandRandomNumber].info;
       bandFunction();
       break;
 
     case 'Raiding the Rock Vault':
-      bandImage = randomBand[randomNumber].image;
-      bandName = randomBand[randomNumber].band;
-      bandInfo = randomBand[randomNumber].info;
+      bandImage = randomBand[bandRandomNumber].image;
+      bandName = randomBand[bandRandomNumber].band;
+      bandInfo = randomBand[bandRandomNumber].info;
       bandFunction();
       break;
 
     case 'Rolling Stones':
-      bandImage = randomBand[randomNumber].image;
-      bandName = randomBand[randomNumber].band;
-      bandInfo = randomBand[randomNumber].info;
+      bandImage = randomBand[bandRandomNumber].image;
+      bandName = randomBand[bandRandomNumber].band;
+      bandInfo = randomBand[bandRandomNumber].info;
       bandFunction();
       break;
 
@@ -282,23 +342,44 @@ function checkBand(selectedValue) {
       break;
 
     case 'Small Faces':
-      bandImage = randomBand[randomNumber].image;
-      bandName = randomBand[randomNumber].band;
-      bandInfo = randomBand[randomNumber].info;
+      bandImage = randomBand[bandRandomNumber].image;
+      bandName = randomBand[bandRandomNumber].band;
+      bandInfo = randomBand[bandRandomNumber].info;
       bandFunction();
       break;
 
     case 'Twisted Sister':
-      bandImage = randomBand[randomNumber].image;
-      bandName = randomBand[randomNumber].band;
-      bandInfo = randomBand[randomNumber].info;
+      bandImage = randomBand[bandRandomNumber].image;
+      bandName = randomBand[bandRandomNumber].band;
+      bandInfo = randomBand[bandRandomNumber].info;
       bandFunction();
       break;
 
     case 'Van Halen':
-      bandImage = randomBand[randomNumber].image;
-      bandName = randomBand[randomNumber].band;
-      bandInfo = randomBand[randomNumber].info;
+      bandImage = randomBand[bandRandomNumber].image;
+      bandName = randomBand[bandRandomNumber].band;
+      bandInfo = randomBand[bandRandomNumber].info;
+      bandFunction();
+      break;
+
+    case 'Paul Shortino':
+      bandImage = randomBand[bandRandomNumber].image;
+      bandName = randomBand[bandRandomNumber].band;
+      bandInfo = randomBand[bandRandomNumber].info;
+      bandFunction();
+      break;
+
+    case 'Robert Smith':
+      bandImage = randomBand[bandRandomNumber].image;
+      bandName = randomBand[bandRandomNumber].band;
+      bandInfo = randomBand[bandRandomNumber].info;
+      bandFunction();
+      break;
+
+    case 'Steve Marriott':
+      bandImage = randomBand[bandRandomNumber].image;
+      bandName = randomBand[bandRandomNumber].band;
+      bandInfo = randomBand[bandRandomNumber].info;
       bandFunction();
       break;
 
@@ -307,9 +388,54 @@ function checkBand(selectedValue) {
   }
 }
 
+/*
+function checkMusician(selectedValue) {
+  console.log(`checkMusician function is started`);
+  console.log(`selectedValue is ${selectedValue}`);
+  for (i = 0; i < randomMusician.length; i++)
+    if (randomMusician[i].name === selectedValue) {
+      musicianRandomNumber = i;
+    }
+  switch (selectedValue) {
+    case 'RandomPick':
+      musicianRandomNumber = Math.random() * randomMusician.length;
+      musicianRandomNumber = Math.floor(musicianRandomNumber);
+
+      musicianImage = randomMusician[musicianRandomNumber].image;
+      musicianName = randomMusician[musicianRandomNumber].name;
+      musicianInfo = randomMusician[musicianRandomNumber].info;
+      musicianFunction();
+      break;
+
+    case 'Paul Shortino':
+      musicianImage = randomMusician[musicianRandomNumber].image;
+      musicianName = randomMusician[musicianRandomNumber].name;
+      musicianInfo = randomMusician[musicianRandomNumber].info;
+      musicianFunction();
+      break;
+
+    case 'Robert Smith':
+      musicianImage = randomMusician[musicianRandomNumber].image;
+      musicianName = randomMusician[musicianRandomNumber].name;
+      musicianInfo = randomMusician[musicianRandomNumber].info;
+      musicianFunction();
+      break;
+
+    case 'Steve Marriott':
+      musicianImage = randomMusician[musicianRandomNumber].image;
+      musicianName = randomMusician[musicianRandomNumber].name;
+      musicianInfo = randomMusician[musicianRandomNumber].info;
+      musicianFunction();
+      break;
+
+    default:
+      break;
+  }
+}
+*/
+
 function bandFunction() {
-  const aaa = document.getElementById('smImageId');
-  console.log(`aaa is ${aaa}`);
+  aaa = document.getElementById('smImageId');
   aaa.style.display = 'none';
 
   const bandImgDiv = document.createElement('div');
@@ -318,7 +444,6 @@ function bandFunction() {
   const bandNameDiv = document.createElement('div');
   const bandNameH1 = document.createElement('H1');
   const bandNameText = document.createTextNode(bandName);
-  console.log(`bandName is ${bandName}`);
 
   const bandInfoDiv = document.createElement('div');
   const bandInfoP = document.createElement('p');
@@ -345,6 +470,44 @@ function bandFunction() {
     .appendChild(bandInfoText);
 }
 
+/*
+function musicianFunction() {
+  aaa = document.getElementById('smImageId');
+  aaa.style.display = 'none';
+
+  const musicianImgDiv = document.createElement('div');
+  const musicianImg = document.createElement('img');
+
+  const musicianNameDiv = document.createElement('div');
+  const musicianNameH1 = document.createElement('H1');
+  const musicianNameText = document.createTextNode(musicianName);
+
+  const musicianInfoDiv = document.createElement('div');
+  const musicianInfoP = document.createElement('p');
+  const musicianInfoText = document.createTextNode(musicianInfo);
+
+  musicianImgDiv.classList.add('divClass');
+  musicianImg.classList.add('bandImageClass');
+  musicianNameDiv.classList.add('divClass');
+  musicianNameH1.classList.add('bandNameClass');
+  musicianInfoDiv.classList.add('divClass');
+  musicianInfoP.classList.add('bandInfoClass');
+
+  document.body
+    .appendChild(musicianImgDiv)
+    .appendChild(musicianImg)
+    .setAttribute('src', musicianImage);
+  document.body
+    .appendChild(musicianNameDiv)
+    .appendChild(musicianNameH1)
+    .appendChild(musicianNameText);
+  document.body
+    .appendChild(musicianInfoDiv)
+    .appendChild(musicianInfoP)
+    .appendChild(musicianInfoText);
+}
+*/
+/* ******************************************************************** */
 /*const title = document.getElementByClassName('rockBandTitle');*/
 
 let smImageId = document.getElementById('smImageId');
@@ -374,14 +537,10 @@ letter1 = letter1.toUpperCase();
 
 let extraChars1 = username1.slice(1);
 extraChars1 = extraChars1.toLowerCase();
-username1 = letter1 + extraChars1;
-
-console.log(`username 1 is ${username1}`);*/
+username1 = letter1 + extraChars1;*/
 
 // ..... method chaining .....
 /*let username2 = window.prompt('Enter your username2: ');
 
 username2 =
-  username2.trim().charAt(0).toUpperCase() + username2.slice(1).toLowerCase();
-
-console.log(`username2 is ${username2}🎨`);*/
+  username2.trim().charAt(0).toUpperCase() + username2.slice(1).toLowerCase();*/

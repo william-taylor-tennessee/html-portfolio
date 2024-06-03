@@ -1,4 +1,4 @@
-/* upload on 5-30-24 */
+/* upload on 6-3-24 */
 
 html {
   scroll-behavior: smooth;
@@ -79,6 +79,7 @@ body {
 }
 
 .select_class {
+  display: block;
   height: 24px;
   width: 240px;
   margin-left: 10px;
@@ -101,6 +102,10 @@ body {
 
 #red-color {
   color: red;
+}
+
+#band {
+  margin-top: 10px;
 }
 
 .font_bolder {
@@ -146,6 +151,7 @@ body {
 }
 
 .smTopContainerClass {
+  animation: transitionIn 4.5s;
   display: flex;
   justify-content: center;
   align-items: center;

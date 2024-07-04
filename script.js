@@ -1,6 +1,6 @@
 'use strict';
 
-/* upload on 6-3-24 */
+/* upload on 7-3-24 */
 
 // array below with all bands and info
 let randomBand = [
@@ -164,77 +164,8 @@ Former Black Sabbath members vocalist Ronnie James Dio and drummer Vinny Appice 
       Marriott died on 20 April 1991 when a fire, which was thought to have been caused by a cigarette, swept through his 16th-century home in Arkesden, Essex. He was 44 and posthumously received an Ivor Novello Award in 1996 for his "Outstanding Contribution to British Music", and was listed in Mojo as one of the top 100 greatest singers of all time.
       
       Former Black Sabbath frontman Ozzy Osbourne named Marriott the fourth-greatest singer ever and Clem Burke of Blondie ranked him the sixteenth. Paul Stanley of Kiss called Marriott "unbelievable" and a hero of his, while Steve Perry of Journey named him one of his favorite singers.`,
-  },
-  /*  
-  {
-    image: ``,
-    band: `Band 14`,
-    info: `Band 14 info ...`,
-  },
-  {
-    image: ``,
-    band: `Band 15`,
-    info: `Band 15 info ...`,
-  },
-  {
-    image: ``,
-    band: `Band 16`,
-    info: `Band 16 info ...`,
-  },
-  {
-    image: ``,
-    band: `Band 17`,
-    info: `Band 17 info ...`,
-  },
-  {
-    image: ``,
-    band: `Band 18`,
-    info: `Band 18 info ...`,
-  },
-  {
-    image: ``,
-    band: `Band 19`,
-    info: `Band 19 info ...`,
-  },
-  {
-    image: ``,
-    band: `Band 20`,
-    info: `Band 20 info ...`,
-  },*/
+  },  
 ];
-
-
-/*
-let randomMusician = [
-  {
-    image: `PaulShortino.jpg`,
-    name: `Paul Shortino`,
-    info: `Paul Shortino (born May 14, 1953) is an American rock singer and musician who has sung for Rough Cutt/The Cutt, Quiet Riot, Bad Boyz, and Shortino. He briefly recorded with J.K. Northrup as the duo, Shortino/Northrup. He has also recorded as a solo artist, writing and performing the song "E.G.G.M.A.N." as the theme for Dr. Eggman in Sonic Adventure 2 for Sega, and in Shadow the Hedgehog as "E.G.G.M.A.N. Doc Robeatnix Mix". Shortino recorded lead vocals for the Heavy Metal benefit project Hear 'n Aid in 1985. The single from this project, "Stars", also features lead vocals by heavy metal singers Ronnie James Dio, Rob Halford, Geoff Tate, Don Dokken, Kevin DuBrow, Eric Bloom and Dave Meniketti.
-
-    Shortino is currently a member of the band King Kobra, and also performs in the cast of Raiding the Rock Vault at the Hard Rock Hotel and Casino in Las Vegas.
-
-    Shortino played the character "Duke Fame" in the film, This Is Spinal Tap, and reprised this role in the first webisode by Las Vegas-based group Sin City Sinners. He resides in Las Vegas with his wife Carmen, and is a regular guest of the Sinners.`,
-  },
-  {
-    image: `RobertSmith.jpg`,
-    name: `Robert Smith`,
-    info: `Robert James Smith (born 21 April 1959) is an English musician, singer, songwriter, record producer, and the co-founder, lead vocalist, guitarist, primary songwriter, and only continuous member of the Cure, an alternative rock band formed in 1978. His unique guitar-playing style, distinctive singing voice, and fashion sense, often sporting a pale complexion, smeared red lipstick, black eye-liner, unkempt wiry black hair, and all-black clothes, which were highly influential on the goth subculture that rose to prominence in the 1980s.
-
-    Smith's other work includes playing the lead guitar for Siouxsie and the Banshees from 1982 to 1984 and being a member of the short-lived band the Glove in 1983. He was inducted into the Rock and Roll Hall of Fame as a member of the Cure in 2019, and Rolling Stone magazine ranked him as the 157th greatest singer of all time in 2023.`,
-  },
-  {
-    image: `SteveMarriott2.jpg`,
-    name: `Steve Marriott`,
-    info: `Stephen Peter Marriott (30 January 1947 – 20 April 1991), known professionally as Steve Marriott, was an English musician, guitarist, singer and songwriter. He co-founded and played in the rock bands Small Faces and Humble Pie, in a career spanning over 20 years. Marriott was inducted posthumously into the Rock and Roll Hall of Fame in 2012 as a member of Small Faces.
-  
-      In Britain, Marriott became a popular, often-photographed mod style icon. Marriott was influenced by musicians such as: Miles Davis, Buddy Holly, Booker T & the MG's, Ray Charles, Otis Redding, Muddy Waters and Bobby Bland. In his later life, Marriott distanced himself from the mainstream music industry and turned away from major record labels, remaining in relative obscurity. He returned to his musical roots, playing in local pubs and clubs around London and Essex. 
-      
-      Marriott died on 20 April 1991 when a fire, which was thought to have been caused by a cigarette, swept through his 16th-century home in Arkesden, Essex. He was 44 and posthumously received an Ivor Novello Award in 1996 for his "Outstanding Contribution to British Music", and was listed in Mojo as one of the top 100 greatest singers of all time.
-      
-      Former Black Sabbath frontman Ozzy Osbourne named Marriott the fourth-greatest singer ever and Clem Burke of Blondie ranked him the sixteenth. Paul Stanley of Kiss called Marriott "unbelievable" and a hero of his, while Steve Perry of Journey named him one of his favorite singers.`,
-  },
-];
-*/
 
 let bandRandomNumber;
 let bandImage = '';
@@ -388,52 +319,6 @@ function checkBand(selectedValue) {
   }
 }
 
-/*
-function checkMusician(selectedValue) {
-  console.log(`checkMusician function is started`);
-  console.log(`selectedValue is ${selectedValue}`);
-  for (i = 0; i < randomMusician.length; i++)
-    if (randomMusician[i].name === selectedValue) {
-      musicianRandomNumber = i;
-    }
-  switch (selectedValue) {
-    case 'RandomPick':
-      musicianRandomNumber = Math.random() * randomMusician.length;
-      musicianRandomNumber = Math.floor(musicianRandomNumber);
-
-      musicianImage = randomMusician[musicianRandomNumber].image;
-      musicianName = randomMusician[musicianRandomNumber].name;
-      musicianInfo = randomMusician[musicianRandomNumber].info;
-      musicianFunction();
-      break;
-
-    case 'Paul Shortino':
-      musicianImage = randomMusician[musicianRandomNumber].image;
-      musicianName = randomMusician[musicianRandomNumber].name;
-      musicianInfo = randomMusician[musicianRandomNumber].info;
-      musicianFunction();
-      break;
-
-    case 'Robert Smith':
-      musicianImage = randomMusician[musicianRandomNumber].image;
-      musicianName = randomMusician[musicianRandomNumber].name;
-      musicianInfo = randomMusician[musicianRandomNumber].info;
-      musicianFunction();
-      break;
-
-    case 'Steve Marriott':
-      musicianImage = randomMusician[musicianRandomNumber].image;
-      musicianName = randomMusician[musicianRandomNumber].name;
-      musicianInfo = randomMusician[musicianRandomNumber].info;
-      musicianFunction();
-      break;
-
-    default:
-      break;
-  }
-}
-*/
-
 function bandFunction() {
   aaa = document.getElementById('smImageId');
   aaa.style.display = 'none';
@@ -470,46 +355,6 @@ function bandFunction() {
     .appendChild(bandInfoText);
 }
 
-/*
-function musicianFunction() {
-  aaa = document.getElementById('smImageId');
-  aaa.style.display = 'none';
-
-  const musicianImgDiv = document.createElement('div');
-  const musicianImg = document.createElement('img');
-
-  const musicianNameDiv = document.createElement('div');
-  const musicianNameH1 = document.createElement('H1');
-  const musicianNameText = document.createTextNode(musicianName);
-
-  const musicianInfoDiv = document.createElement('div');
-  const musicianInfoP = document.createElement('p');
-  const musicianInfoText = document.createTextNode(musicianInfo);
-
-  musicianImgDiv.classList.add('divClass');
-  musicianImg.classList.add('bandImageClass');
-  musicianNameDiv.classList.add('divClass');
-  musicianNameH1.classList.add('bandNameClass');
-  musicianInfoDiv.classList.add('divClass');
-  musicianInfoP.classList.add('bandInfoClass');
-
-  document.body
-    .appendChild(musicianImgDiv)
-    .appendChild(musicianImg)
-    .setAttribute('src', musicianImage);
-  document.body
-    .appendChild(musicianNameDiv)
-    .appendChild(musicianNameH1)
-    .appendChild(musicianNameText);
-  document.body
-    .appendChild(musicianInfoDiv)
-    .appendChild(musicianInfoP)
-    .appendChild(musicianInfoText);
-}
-*/
-/* ******************************************************************** */
-/*const title = document.getElementByClassName('rockBandTitle');*/
-
 let smImageId = document.getElementById('smImageId');
 
 let smH1Id = document.getElementById('smH1Id');
@@ -526,21 +371,3 @@ smImageId.addEventListener('mouseout', (event) => {
   rockBandTitle.style.color = 'rgb(209, 5, 5)';
   info.style.color = 'darkblue';
 });
-
-// ..... no method chaining .....
-/*
-let username1 = window.prompt('Enter your username1: ');
-
-username1 = username1.trim();
-let letter1 = username1.charAt();
-letter1 = letter1.toUpperCase();
-
-let extraChars1 = username1.slice(1);
-extraChars1 = extraChars1.toLowerCase();
-username1 = letter1 + extraChars1;*/
-
-// ..... method chaining .....
-/*let username2 = window.prompt('Enter your username2: ');
-
-username2 =
-  username2.trim().charAt(0).toUpperCase() + username2.slice(1).toLowerCase();*/

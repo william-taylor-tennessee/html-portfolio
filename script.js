@@ -71,7 +71,7 @@ let randomBand = [
     The Hollies are one of the few UK groups of the early 1960s, along with the Rolling Stones, who have never disbanded and continue to record and perform. In recognition of their achievements, the Hollies were inducted into the Rock and Roll Hall of Fame in 2010.`,
   },
   {
-    image: `Lastinline.png`,
+    image: `LastinLine.png`,
     band: `Last in Line`,
     info: `Last in Line is a British rock band formed in 2012 by former members of Dio's original lineup. Their name comes from the 1984 Dio album, The Last in Line. Following the death of frontman Ronnie James Dio in 2010, drummer Vinny Appice, bassist Jimmy Bain, guitarist Vivian Campbell and keyboardist Claude Schnell reunited and added vocalist Andrew Freeman to perform the Dio songs they originally recorded. They released three studio albums of original material without Schnell (two without Bain) between February 2016 and March 2023.
 
@@ -79,7 +79,7 @@ Dio origins ...
 Former Black Sabbath members vocalist Ronnie James Dio and drummer Vinny Appice formed Dio in October 1982 in the United States with bassist Jimmy Bain and guitarist Vivian Campbell. The band released their debut album, Holy Diver in May 1983. Since Ronnie James Dio and Jimmy Bain had played keyboards on the record, they recruited keyboardist Claude Schnell for live shows in 1983 and the following Holy Diver tour. Claude Schnell later became a full member of Dio, and the band's first recorded effort as a quintet was 1984's The Last in Line. The band proceeded to release Sacred Heart in 1985 and The Dio E.P. in 1986 before Campbell was fired. The remaining members were joined by guitarist Craig Goldy to release Dream Evil in 1987 before the departure of Bain, Appice and Schnell. They did not play in Dio together again. Appice returned between 1993 and 1998 and Bain between 1999 and 2004.`,
   },
   {
-    image: `Monkees-1966.jpg`,
+    image: `Monkees-1966.JPG`,
     band: `Monkees`,
     info: `The Monkees were an American pop rock band formed in Los Angeles in the mid-1960s. The band consisted of Micky Dolenz, Davy Jones, Michael Nesmith, and Peter Tork. Spurred by the success of the television show of the same name, the Monkees were one of the most successful bands of the late 1960s. With international hits, four chart-topping albums and three chart-topping songs ("Last Train to Clarksville", "I'm a Believer", and "Daydream Believer"), they sold more than 75 million records worldwide.
 
